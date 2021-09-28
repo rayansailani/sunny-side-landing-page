@@ -15,12 +15,12 @@ const Gallery = () => {
   return (
     <Grid container style={{}}>
       {galleryNames.map((im) => (
-        <Grid item md={3}>
+        <Grid item md={3} xs={6}>
           <div
             className="image-container"
             style={{
               backgroundImage: `url(${im.toString()})`,
-              minHeight: "60vh",
+              minHeight: "40vh",
             }}
           ></div>
         </Grid>
