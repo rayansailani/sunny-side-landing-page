@@ -23,14 +23,12 @@ const useStyles = makeStyles((theme) => {
     banner: {
       height: "86vh",
       width: "100vw",
-      backgroundImage:
-        "url(./sunny-side-landing-page/images/desktop/image-header.jpg)",
+      backgroundImage: `url(${window.location.href}/images/desktop/image-header.jpg)`,
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",
       backgroundSize: "cover",
       [theme.breakpoints.down("md")]: {
-        backgroundImage:
-          "url(./sunny-side-landing-page/images/mobile/image-header.jpg)",
+        backgroundImage: `url(${window.location.href}/images/mobile/image-header.jpg)`,
       },
     },
     bannerHeading: {
@@ -87,7 +85,8 @@ const Banner = () => {
           <div className="hamgburger">
             <IconButton onClick={toggleState}>
               <img
-                src="./sunny-side-landing-page/images/icon-hamburger.svg"
+                // src="./sunny-side-landing-page/images/icon-hamburger.svg"
+                src={`${window.location.href}/images/icon-hamburger.svg`}
                 alt=""
               />
             </IconButton>
@@ -107,13 +106,16 @@ const Banner = () => {
                     )
                   )}
                 </List> */}
-
                 <Box
                   display="flex"
                   flexDirection="column"
                   justifyContent="center"
                   alignItems="center"
                   padding="2rem"
+                  style={{
+                    background: "white",
+                    borderRaduis: "4px",
+                  }}
                 >
                   {["About", "Services", "Projects", "Contact"].map(
                     (text, index) => (
@@ -151,7 +153,8 @@ const Banner = () => {
         >
           <Grid item>
             <img
-              src="./sunny-side-landing-page/images/icon-arrow-down.svg"
+              // src="./sunny-side-landing-page/images/icon-arrow-down.svg"
+              src={`${window.location.href}/images/icon-arrow-down.svg`}
               alt=""
             />
           </Grid>

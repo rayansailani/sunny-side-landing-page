@@ -7,10 +7,10 @@ const useStyles = makeStyles(() => {
 });
 const Gallery = () => {
   const galleryNames = [
-    "./sunny-side-landing/images/desktop/image-gallery-milkbottles.jpg",
-    "./sunny-side-landing/images/desktop/image-gallery-orange.jpg",
-    "./sunny-side-landing/images/desktop/image-gallery-cone.jpg",
-    "./sunny-side-landing/images/desktop/image-gallery-sugarcubes.jpg",
+    `${window.location.href}/images/desktop/image-gallery-milkbottles.jpg`,
+    `${window.location.href}/images/desktop/image-gallery-orange.jpg`,
+    `${window.location.href}/images/desktop/image-gallery-cone.jpg`,
+    `${window.location.href}/images/desktop/image-gallery-sugarcubes.jpg`,
   ];
   return (
     <Grid container>

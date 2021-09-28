@@ -39,11 +39,12 @@
   background-size: cover;
   object-fit: contain;
   background-repeat: no-repeat;
-  
 }
 .MuiDrawer-paperAnchorTop {
   margin: 80px 20px 0px 20px;
   text-align: center;
+  background-color: white;
+  border-radius: 4px;
 }
 .MuiDrawer-modal {
   text-align: center;
