@@ -18,10 +18,10 @@ const useStyles = makeStyles((theme) => {
 });
 const Footer = () => {
   const iconsData = [
-    "./images/icon-facebook.svg",
-    "./images/icon-instagram.svg",
-    "./images/icon-twitter.svg",
-    "./images/icon-pinterest.svg",
+    "./sunny-side-landing-page/images/icon-facebook.svg",
+    "./sunny-side-landing-page/images/icon-instagram.svg",
+    "./sunny-side-landing-page/images/icon-twitter.svg",
+    "./sunny-side-landing-page/images/icon-pinterest.svg",
   ];
   const classes = useStyles();
   return (

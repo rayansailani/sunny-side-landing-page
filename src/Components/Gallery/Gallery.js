@@ -7,20 +7,20 @@ const useStyles = makeStyles(() => {
 });
 const Gallery = () => {
   const galleryNames = [
-    "./images/desktop/image-gallery-milkbottles.jpg",
-    "./images/desktop/image-gallery-orange.jpg",
-    "./images/desktop/image-gallery-cone.jpg",
-    "./images/desktop/image-gallery-sugarcubes.jpg",
+    "./sunny-side-landing/images/desktop/image-gallery-milkbottles.jpg",
+    "./sunny-side-landing/images/desktop/image-gallery-orange.jpg",
+    "./sunny-side-landing/images/desktop/image-gallery-cone.jpg",
+    "./sunny-side-landing/images/desktop/image-gallery-sugarcubes.jpg",
   ];
   return (
-    <Grid container style={{}}>
+    <Grid container>
       {galleryNames.map((im) => (
-        <Grid item md={3}>
+        <Grid item md={3} xs={6}>
           <div
             className="image-container"
             style={{
               backgroundImage: `url(${im.toString()})`,
-              minHeight: "60vh",
+              minHeight: "40vh",
             }}
           ></div>
         </Grid>

@@ -23,12 +23,14 @@ const useStyles = makeStyles((theme) => {
     banner: {
       height: "86vh",
       width: "100vw",
-      backgroundImage: "url(./images/desktop/image-header.jpg)",
+      backgroundImage:
+        "url(./sunny-side-landing-page/images/desktop/image-header.jpg)",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",
       backgroundSize: "cover",
       [theme.breakpoints.down("md")]: {
-        backgroundImage: "url(./images/mobile/image-header.jpg)",
+        backgroundImage:
+          "url(./sunny-side-landing-page/images/mobile/image-header.jpg)",
       },
     },
     bannerHeading: {
@@ -84,7 +86,10 @@ const Banner = () => {
           </div>
           <div className="hamgburger">
             <IconButton onClick={toggleState}>
-              <img src="./images/icon-hamburger.svg" alt="" />
+              <img
+                src="./sunny-side-landing-page/images/icon-hamburger.svg"
+                alt=""
+              />
             </IconButton>
             <div>
               <SwipeableDrawer
@@ -145,7 +150,10 @@ const Banner = () => {
           alignItems="center"
         >
           <Grid item>
-            <img src="./images/icon-arrow-down.svg" alt="" />
+            <img
+              src="./sunny-side-landing-page/images/icon-arrow-down.svg"
+              alt=""
+            />
           </Grid>
         </Box>
       </Container>

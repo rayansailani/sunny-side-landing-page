@@ -57,7 +57,7 @@ const Testimonial = () => {
           >
             <Avatar
               style={{ height: "70px", width: "70px" }}
-              src="./images/image-emily.jpg"
+              src="./sunny-side-landing-page/images/image-emily.jpg"
             />
             <Typography
               variant="body1"
@@ -89,7 +89,7 @@ const Testimonial = () => {
           >
             <Avatar
               style={{ height: "70px", width: "70px" }}
-              src="./images/image-thomas.jpg"
+              src="./sunny-side-landing-page/images/image-thomas.jpg"
             />
             <Typography
               variant="body1"
@@ -121,7 +121,7 @@ const Testimonial = () => {
           >
             <Avatar
               style={{ height: "70px", width: "70px" }}
-              src="./images/image-jennie.jpg"
+              src="./sunny-side-landing-page/images/image-jennie.jpg"
             />
             <Typography
               variant="body1"

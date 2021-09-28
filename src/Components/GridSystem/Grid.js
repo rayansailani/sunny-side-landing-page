@@ -5,30 +5,38 @@ import { Box } from "@mui/system";
 const useStyles = makeStyles((theme) => {
   return {
     image1: {
-      backgroundImage: "url(./images/desktop/image-transform.jpg)",
+      backgroundImage:
+        "url(./sunny-side-landing-page/images/desktop/image-transform.jpg)",
       [theme.breakpoints.down("md")]: {
-        backgroundImage: "url(./images/mobile/image-transform.jpg)",
+        backgroundImage:
+          "url(./sunny-side-landing-page/images/mobile/image-transform.jpg)",
         height: "60vh !important",
       },
     },
     image2: {
-      backgroundImage: "url(./images/desktop/image-stand-out.jpg)",
+      backgroundImage:
+        "url(./sunny-side-landing-page/images/desktop/image-stand-out.jpg)",
       [theme.breakpoints.down("md")]: {
-        backgroundImage: "url(./images/mobile/image-stand-out.jpg)",
+        backgroundImage:
+          "url(./sunny-side-landing-page/images/mobile/image-stand-out.jpg)",
         height: "60vh !important",
       },
     },
     image3: {
-      backgroundImage: "url(./images/desktop/image-graphic-design.jpg)",
+      backgroundImage:
+        "url(./sunny-side-landing-page/images/desktop/image-graphic-design.jpg)",
       [theme.breakpoints.down("md")]: {
-        backgroundImage: "url(./images/mobile/image-graphic-design.jpg)",
+        backgroundImage:
+          "url(./sunny-side-landing-page/images/mobile/image-graphic-design.jpg)",
         height: "60vh !important",
       },
     },
     image4: {
-      backgroundImage: "url(./images/desktop/image-photography.jpg)",
+      backgroundImage:
+        "url(./sunny-side-landing-page/images/desktop/image-photography.jpg)",
       [theme.breakpoints.down("md")]: {
-        backgroundImage: "url(./images/mobile/image-photography.jpg)",
+        backgroundImage:
+          "url(./sunny-side-landing-page/images/mobile/image-photography.jpg)",
         height: "60vh !important",
       },
     },
